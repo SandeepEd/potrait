@@ -1,5 +1,5 @@
 import Image from "next/image";
-import UploadImage from "./components/upload";
+import UploadImage from "./components/upload_button";
 import { fetch_all_images } from "./utils/actions";
 
 export default async function S3Page() {
