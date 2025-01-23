@@ -45,6 +45,7 @@ const saveImageToS3 = async (base64data: string) => {
   });
 
   const response = await client.send(command);
+  revalidatePath("/");
   return response;
 };
 
